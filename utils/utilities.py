@@ -115,8 +115,8 @@ class utilities():
         cmd = cmd_0 + " " + cmd_1
         subprocess.call('sudo {}'.format(cmd), shell=True)
 
-    def close_all_apps(self):
-        input("Please close all other applications and Press Enter to continue...")
+    # def close_all_apps(self):
+    #     input("Please close all other applications and Press Enter to continue...")
 
     def check_trt(self):
         if not os.path.isfile('/usr/src/tensorrt/bin/trtexec'):  # Check if TensorRT is installed
