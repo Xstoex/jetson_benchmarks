@@ -127,4 +127,5 @@ def main():
     system_check.clear_ram_space()
     system_check.set_jetson_fan(0)
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
